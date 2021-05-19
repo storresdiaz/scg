@@ -6,4 +6,4 @@ The purpose of this small project was to attempt to create an Entity Component S
 
 What could be improved on :
 
-Making the Entity Component System more closed would be beneficial to avoid other objects from directly modifying attributes of any component. 
+Making the Entity Component System more closed would be beneficial to avoid other objects from directly modifying attributes of any component. As well as creating block comments to help document the entire process.

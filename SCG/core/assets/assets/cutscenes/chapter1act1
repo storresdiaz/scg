@@ -1,3 +1,10 @@
 START 
+PLAY-SOUND assets/sounds/music/night-of-magic.mp3
+TRANSITION-IMAGE 1 assets/cutscenes/chapter1act1.png 3
+SLEEP 3
+LOCK-CAMERA the-artifact
+TEXT 2 4 [Something about this artifact thing in space]
+SLEEP 4
 LOCK-CAMERA ship
+TEXT 3 4 "Wow that sure is some crazy artifact thingy"
 END

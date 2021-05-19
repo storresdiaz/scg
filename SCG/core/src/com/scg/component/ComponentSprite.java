@@ -15,7 +15,7 @@ public class ComponentSprite extends Component {
 
 	public ComponentSprite(Entity parentEntity) {
 		super(parentEntity);
-		debug_pointer = new Texture(Gdx.files.internal("assets/images/debug_pointer.png"));
+		debug_pointer = new Texture(Gdx.files.internal("assets/images/UI/debug_pointer.png"));
 		this.spriteBatch = CameraHolder.spriteBatch;
 	}
 	

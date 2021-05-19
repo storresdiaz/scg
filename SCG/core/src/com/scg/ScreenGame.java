@@ -33,19 +33,19 @@ public class ScreenGame implements Screen {
 		entityArtifact.addComponent(new ComponentProperties(entityArtifact));
 		entityArtifact.addComponent(new ComponentActionRotation(entityArtifact));
 		ComponentSprite componentArtifactSprite = new ComponentSprite(entityArtifact);
-		componentArtifactSprite.setTexture("assets/images/artifact_1.png");
+		componentArtifactSprite.setTexture("assets/images/Misc/artifact_1.png");
 		entityArtifact.addComponent(componentArtifactSprite);
 		entityArtifact.initialize();
 		
 		entityShip = new  Entity("ship");
 		ComponentProperties shipProperties = new ComponentProperties(entityShip);
-		shipProperties.setPosX(1200);
-		shipProperties.setGoalX(1200);
-		shipProperties.setGoalY(1200);
-		shipProperties.setPosY(1200);
+		shipProperties.setPosX(200);
+		shipProperties.setGoalX(200);
+		shipProperties.setGoalY(200);
+		shipProperties.setPosY(200);
 		entityShip.addComponent(shipProperties);
 		ComponentSprite componentShipSprite = new ComponentSprite(entityShip);
-		componentShipSprite.setTexture("assets/images/ship_smuggler.png");
+		componentShipSprite.setTexture("assets/images/Ships/ship_smuggler.png");
 		entityShip.addComponent(componentShipSprite);
 		entityShip.addComponent(new ComponentPlayerMovement(entityShip));
 		entityShip.initialize();
@@ -62,7 +62,7 @@ public class ScreenGame implements Screen {
 		scriptReader.loadCutscene("assets/cutscenes/chapter1act1", testScene);
 		interpreter.Play(testScene);
 		
-		background = new Texture(Gdx.files.internal("assets/images/background.png"));
+		background = new Texture(Gdx.files.internal("assets/images/UI/background.png"));
 		
 	}
 	
